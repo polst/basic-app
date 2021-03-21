@@ -6,12 +6,12 @@
     "require": {
         "codeigniter4/framework": "*",
         "codeigniter4/translations": "*",
-        "basic-app/system" : "*",
-        "basic-app/admin" : "*",
-        "basic-app/module-blog" : "*",
-        "basic-app/module-page" : "*",
-        "basic-app/module-menu" : "*",
-        "basic-app/module-block" : "*",
+        "basic-app/system": "dev-master",
+        "basic-app/admin": "*",
+        "basic-app/module-blog": "*",
+        "basic-app/module-page": "*",
+        "basic-app/module-menu": "*",
+        "basic-app/module-block": "*",
         "basic-app/theme-clean-blog": "*",
         "basic-app/theme-bootstrap4": "*",
         "basic-app/theme-cool-admin": "*",
@@ -21,7 +21,7 @@
         "basic-app/module-i18n": "*",
         "basic-app/html-purifier": "*",
         "basic-app/site": "*",
-        "basic-app/member": "*"
+        "basic-app/member": "dev-master"
     },
     "scripts": {
         "post-create-project-cmd": [
@@ -42,7 +42,7 @@
                 {
                     "env": ".env",
                     "environment/public/robots.txt": "public/robots.txt",
-                    "environment/public/favicon.ico": "public/favicon.ico"                    
+                    "environment/public/favicon.ico": "public/favicon.ico"
                 }
             ],
             "setPermission": [
@@ -63,7 +63,15 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/polst/system.git"
+            "url": "https://github.com/polst/core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/polst/system"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/polst/member"
         }
     ]
 }
